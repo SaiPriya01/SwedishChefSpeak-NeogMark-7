@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: content-box;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+:root {
+    --primary-color: #112240;
+    --secondary-color: #65e2be;
+    --bgg-color: #00BFA6;
+}
+
+.header {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom: 4px solid var(--bgg-color);
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.section {
+    width: 100%;
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+textarea{
+    width: 60%;
+    height: 30vh;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 200;
+    border: 2px solid var(--bgg-color);
+    border-bottom: 4px solid var(--bgg-color);
+}
+
+.section .btn{
+    background-color: var(--primary-color);
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 100;
+    outline: none;
+    border: 2px solid #163877;
+    border-bottom: 4px solid #163877;
+}
+.btn:hover{
+    background-color: #193464;
+    ;
+    transition: 0.5s ease all;
+}
+::placeholder {
+    color: var(--primary-color);
+}
+.footer{
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-top: 4px solid var(--bgg-color);
+}
+
+.footer h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.ribbon {
+    position: absolute;
+    top: 100;
+    right: 0;
+ }
+ .ribbon-left{
+    position: absolute;
+    top: 100;
+    left: 0;
+
+ }
