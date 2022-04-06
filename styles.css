@@ -43,7 +43,7 @@
     height: auto;
 }
 
-textarea{
+textarea {
     width: 60%;
     height: 30vh;
     background-color: var(--secondary-color);
@@ -58,7 +58,7 @@ textarea{
     border-bottom: 4px solid var(--bgg-color);
 }
 
-.section .btn{
+.section .btn {
     background-color: var(--primary-color);
     color: aliceblue;
     padding: 0.5rem 1rem;
@@ -69,15 +69,18 @@ textarea{
     border: 2px solid #163877;
     border-bottom: 4px solid #163877;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #193464;
     ;
     transition: 0.5s ease all;
 }
+
 ::placeholder {
     color: var(--primary-color);
 }
-.footer{
+
+.footer {
     padding: 0.5rem;
     text-align: center;
     background-color: var(--secondary-color);
@@ -90,16 +93,18 @@ textarea{
 .footer h2 {
     font-weight: 100;
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: aliceblue;
 }
+
 .ribbon {
     position: absolute;
     top: 100;
     right: 0;
- }
- .ribbon-left{
+}
+
+.ribbon-left {
     position: absolute;
     top: 100;
     left: 0;
 
- }
+}
